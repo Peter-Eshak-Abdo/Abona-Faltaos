@@ -8,7 +8,8 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "cp -r public dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
   },
   "repository": {
     "type": "git",
@@ -17,3 +18,5 @@
   "author": "Peter Eshak Abdo",
   "license": "ISC"
 }
+
+
