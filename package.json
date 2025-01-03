@@ -1,5 +1,19 @@
 {
   "dependencies": {
     "bootstrap": "^5.3.3"
-  }
+  },
+  "name": "abona-faltaos",
+  "version": "1.0.0",
+  "description": "christian page",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Abona-Faltaos"
+  },
+  "author": "Peter Eshak Abdo",
+  "license": "ISC"
 }
