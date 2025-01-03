@@ -11,6 +11,17 @@
         "source": "**",
         "destination": "/index.html"
       }
+    ],
+     "headers": [
+      {
+        "source": "**/*.@(js|css|gif|png|jpg|jpeg|svg|webp|mp3|mpeg)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=31536000" 
+          }
+        ]
+      }
     ]
   }
 }
