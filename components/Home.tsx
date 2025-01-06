@@ -4,12 +4,7 @@ function Home() {
   return (
     <main className="container">
       <div className="d-flex flex-column justify-content-center align-items-center pt-5 mt-4">
-        <Image
-          src="media/images/img.jpg"
-          alt="صورة لابونا فلتاؤس"
-          className="img-thumbnail rounded"
-          sizes="(max-width: 768px) 90vw"
-        />
+        <Image src="media/images/img.jpg" alt="صورة لابونا فلتاؤس" className="img-thumbnail rounded" sizes="(max-width: 768px) 90vw" />
         <h1 className="display-1 text-center m-5 text-primary fw-bolder">اهلاً بك في صفحة ابونا فلتاؤس</h1>
         <p className="fs-4 text-secondry text-center fw-light mt-5">صفحة مخصصة للألحان والترانيم والمقالات والآيات والتعاليم المسيحية الارثوذكسية</p>
       </div>
